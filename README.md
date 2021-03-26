@@ -10,5 +10,6 @@ It'll convert as many custom songs as it can and dump them in the CustomLevels f
 
 At which point you should be good to launch your game and they will show up
 
-If you find this useful, cool
+If you find this useful, cool.
+
 If you think the code is ugly, you should see the stuff I get paid to write :D 
