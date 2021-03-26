@@ -32,7 +32,7 @@ def start():
     except Exception:
         pass
     try:
-        songList = songList[:] = [x for x in songList if ".exe" not in x]
+        songList = songList[:] = [x for x in songList if ".exe" not in x] # signs of my messy working directory
     except Exception:
         pass
     
@@ -43,7 +43,6 @@ def start():
         os.mkdir(customLevelsDir)
     except Exception as e:
         pass
-        #print(f"Tmp dir already exists: {repr(e)}")
 
     errCount = 0
     errLog = ""
@@ -65,7 +64,6 @@ def start():
             os.mkdir(newSongDir)
         except Exception as e:
             pass
-            #print(f"Dir already exists: {repr(e)}")
 
         trackName = ""
         picName = ""
