@@ -5,7 +5,7 @@ I threw this together to solve a problem apparently only I had, because I stoppe
 
 I couldn't find anything online to easily upgrade them, and doing it one by one was out of the question, so here we are.
 
-Set your baseDir on line 11 and run the script
+Set your baseDir on line 11 and run the script. 
 It'll convert as many custom songs as it can and dump them in the CustomLevels folder
 
 At which point you should be good to launch your game and they will show up
